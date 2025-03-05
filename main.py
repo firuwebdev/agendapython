@@ -7,6 +7,7 @@ from tkinter import messagebox
 def conectar():
     return sqlite3.connect('agenda_clientes.db')
 
+
 # Crear la tabla si no existe
 def crear_tabla():
     conexion = conectar()
